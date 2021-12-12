@@ -1,0 +1,23 @@
+{% extends 'core/base.html' %} {% load static %} {% block content %}
+<div class="mt-5">
+    <div class="text-center">
+        <img src="{% static 'core/images/pic1.jpeg' %}" alt="ProfilePic" class="img-thumbnail" width="250px" height="150px">
+    </div>
+    <div class="mt-5 text-white mx-5 text-justify">
+        <h1 class="font-weight-bold st-font">Hello,</h1>
+        <div class="px-4" style="line-height: 2rem;">
+            <p style="text-indent:100px;">I am <b class="text-warning">Shivraj Singh </b>having 5 years of full-stack web development experience for global businesses I offer the technical expertise you are seeking for your web developer position.</p>
+            <p>Since earning my bachelor's degree in internet and web development from XYZ university, I have served as a web developer at <b class="text-warning">
+             GS Technology</b>, one of the biggest premier digital marketing and web development firm. In this position, I have led web development projects for clients in diverse industries including technologies, manufacturing. I hope i will be helpful
+                and coperative in your firm too this will also help your company to place at international level with full fame.Lorem epsum ita veta zalina wega, Biyanca blair,sahsa banks,roman reigns,charlotte flair,paige,russev day,john cena,brock lesnar,goldberg,undertaker,rey
+                mysterio,the undertaker Eddie guereero,the rock,stone cold steve austin,vince mcmahon,stephanie mcmhon,HHH,batista,wwe,The great khali,Jinder mahal,Sanfrancisco,big show Santino,Fandango,diean ambrose,seth rollins,baklait,baron corbin,aj
+            </p>
+
+        </div>
+    </div>
+    <div class="text-center">
+        <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 mx-5">Hire Me</a>
+        <a href="{% url 'contact' %}" class="btn btn-outline-info my-3">Contact</a>
+    </div>
+</div>
+{% endblock content %}
